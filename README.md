@@ -1,4 +1,4 @@
 # AWSToDoListProject
 To Do List for AWS
 This repository is called AWSToDoListProject and contains all the requirements analysis, design and code for the first Project of AWS which is a To Do List Project for a user.
-The Requirements analysis file is under its own directory. The Entity Relationship Diagram files are under the Design Directory and all code is under the code directory.
+The Requirements analysis files were originally under their own directory in my machine but were committed straight to the main branch here in this repository. They are: ToDoListUseCaseDiagram.vsxd and ToDoListUseCaseDiagram.pdf and each contain essentially the same information in different formats, which is the Use Case Diagram of the project. The Entity Relationship Diagram files which are part of the Design stage of Software Development were originally under the same directory on my machine but here they are the next commit after requirements analysis. They are : 1. ToDoListDataDesign.vsxd and 2. ToDoListDataDesign.pdf and they contain essentially the same entity relationship diagram but only in different formats, one being visio format and the other pdf.
