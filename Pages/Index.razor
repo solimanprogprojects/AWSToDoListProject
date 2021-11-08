@@ -1,1 +1,44 @@
+﻿@page "/"
 
+<h1> Login to Access your To Do Lists</h1>
+
+<p></p>
+<p></p>
+<table>
+    <tr>
+        <td>
+            <label>User Name</label>
+        </td>
+        <td>
+            <input type="text" ID="userNameTxt" maxlength="8" @bind="userNameTxt">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Password</label>
+        </td>
+        <td>
+            <input type="password" id="pwdTxt" maxlength="8" @bind="pwdTxt">
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td>
+            <button class="btn btn-primary" OnClick="checkInput();">Log In</button>
+        </td>
+    </tr>
+</table>
+
+@code {
+
+    private string userNameTxt { get; set; }
+    private string pwdTxt { get; set; }
+    private string uname, pword;
+
+    private void Login()
+    {
+        uname = userNameTxt;
+        pword = pwdTxt;
+    }
+}
