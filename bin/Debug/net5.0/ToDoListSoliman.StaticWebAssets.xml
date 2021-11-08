@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="F:\ProgrammingProjects\WeighMore\Code\ToDoListSoliman\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="_content/Blazor.WebForm.Components" Path="C:\Users\ssoli\.nuget\packages\blazor.webform.components\1.2.1\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Blazor.WebForm.UI" Path="C:\Users\ssoli\.nuget\packages\blazor.webform.ui\1.2.1\build\..\staticwebassets\" />
+</StaticWebAssets>
